@@ -67,7 +67,6 @@ def check_plat_size(final_coor, current_dir, starting_point):
     else:
         print("This move will take the rover outside of the plateau, please provide another move order")     # If not in bounds lets the user try again
         final_coor = starting_point[0],starting_point[1]                                                     # If move is out of bounds, rover back to the starting position
-#
 
 def main():
    
